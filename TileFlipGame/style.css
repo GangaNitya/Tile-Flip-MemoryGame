@@ -1,0 +1,39 @@
+#gameDiv{
+text-align: center;
+
+background: #a2faa3;
+left: 60px;
+
+}
+#timer{
+	position: relative;
+margin-right: 300px;
+background:#fbdd12;
+width:100px;
+height: 50px;
+text-align: center;
+
+}
+#clicks{
+float:right;
+
+background:#b4be35;
+width:140px;
+
+}
+#seconds{
+	float: left;
+	background: #d0e0eb;
+margin-right: 100px;
+}
+#formdiv{
+	left: 80px;
+	
+	width: 300px;
+	height: 40px;
+	background: #d0e0eb;
+}
+img{
+	width: 80px;
+	height: 80px;
+}

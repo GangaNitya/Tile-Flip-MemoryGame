@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Memory Game</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <h2>Memory Game Home Page</h2>
+<div id="formdiv">
+    <form action="game.html">
+    Enter your name:<input type = "text" id="user" onkeyup="enablePlay()">
+    <input type="button" id="sbutton" value="Play"  onclick="hideme()" disabled="true">
+
+    </form>
+</div>
+<div id="welcomeDiv"></div>
+
+
+<div id="gameDiv">
+
+
+
+
+<div id="timer">
+
+</div>
+<div id="grid">
+<img src="smiley.gif">
+<img src="smiley.gif">
+<img src="smiley.gif">
+<img src="smiley.gif">
+<br>
+<img src="smiley.gif">
+<img src="smiley.gif">
+<img src="smiley.gif">
+<img src="smiley.gif">
+<br>
+<img src="smiley.gif">
+<img src="smiley.gif">
+<img src="smiley.gif">
+<img src="smiley.gif">
+<br>
+<img src="smiley.gif">
+<img src="smiley.gif">
+<img src="smiley.gif">
+<img src="smiley.gif">
+<br>
+
+</div><br><br>
+<div id="clickcount">
+</div><br><br><br>
+<div id="result">
+
+</div><br>
+<button id="play" height="20" value="Play">Play</button><br>
+<h3>User History records(upto last 10 games will be shown below)</h3>	<br>
+
+<div id = "clicks">
+
+</div>
+<div id = "seconds"></div>
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
